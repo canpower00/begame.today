@@ -1,0 +1,230 @@
+<!doctype html>
+
+<!-- Dashboard Developed by ZeN // Skype for Contact: xxlucasbonaxx -->
+<html lang="en" class="no-js">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+	<title>GTA.Ru - Donate</title>
+
+	<meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,700,600,300' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="jquery.uploadify.min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="uploadify.css">
+<style type="text/css">
+body {
+	font: 13px Arial, Helvetica, Sans-serif;
+}
+</style>
+</head>
+<body class="dark">
+
+	<!-- Container -->
+	<div id="container" class="container">
+
+		<!-- sidebar
+		    ================================================== -->
+		<div id="sidebar">
+
+			<!-- header -->
+			<header class="sidebar-section">
+				<div class="header-logo">
+					<a class="logo" href="#"><img alt="" src="images/white-logo.png"></a>
+				</div>
+				<a class="elemadded responsive-link" href="#">Menu</a>
+				<div class="navbar-vertical">
+					<ul class="main-menu">
+
+						<li class="drop"><a href="/"><i class="home"></i>⇒ HOME</a>
+						</li>
+						<li><a href="/forum"><i class="comment"></i>⇒ FORUM</a></li>
+						<li class="drop"><a href="#"><i class="exclamation-circle"></i>ABOUT US ⇒</a>
+							<ul class="drop-down">
+								<li><a href="members.html">⇒ MEMBERS</a></li>
+								<li><a href="about.html">⇒ OUR MISSION</a></li>
+								</li>
+							</ul>
+						</li>
+						<li class="drop"><a href="uploader.html"><i class="upload"></i>⇒ MAP UPLOADER</a>
+						</li>
+						<li><a class="active" href="donate.html"><i class="heart"></i>⇒ DONATE</a></li>
+						<!--<li class="drop"><a href="#"><i class="exclamation-circle"></i>LANGUAGE ⇒</a>
+							<ul class="drop-down">
+								<li><a href="en/index.html">⇒ ENGLISH</a></li>
+								<li><a href="ru/index.html">⇒ RUSSIAN</a></li>
+								<li><a href="tr/index.html">⇒ TURKISH</a></li>
+								</li>
+							</ul>
+						</li> -->
+
+					</ul>
+				</div>
+			</header>
+
+			<!-- sl box -->
+			<div class="sidebar-section white-box">
+				<div class="social-box">
+					<h2>Follow GTA.Ru!</h2>
+					<ul class="social-icons">
+						<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a class="twitter" href="#"><i class="fa fa-youtube-play"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- server stats -->
+			<div class="sidebar-section white-box">
+				<div class="text-box">
+					<h2>Server Stats</h2>
+					<p><iframe src="http://www.game-state.com/iframe.php?ip=46.39.225.193&port=22001&bgcolor=363636&bordercolor=F5B400&fieldcolor=F5B400&valuecolor=EDEDED&oddrowscolor=4D4D4D&showgraph=false&showplayers=false&graphvalues=EDEDED&graphaxis=F5B400&width=230&graph_height=105&plist_height=101&font_size=9" frameborder="0" scrolling="no" style="width: 230px; height: 165px"></iframe></p>
+				</div>
+			</div>
+
+		</div>
+		<!-- End Sidebar -->
+
+		<!-- content 
+			================================================== -->
+		<div id="content">
+					<!-- pow section 
+				================================================== -->
+			<div class="box-section pow-section triggerAnimation animated" data-animate="fadeInUpBig">
+				<h1>Support Us</h1>
+				<p>...<br>...</p></p>
+				  <form name="donate_paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <h6>DONATION AMOUNT (EUR)</h6>
+                <input type="text" autocomplete="off" id="donate_amount_paypal" value="1" onkeypress="return numericOnly(event)" onkeyup="donationAmountPaypal_changed(this)" />
+                <br><br><br>
+
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="business" value="adicionaseuemailaqui">
+                <input type="hidden" name="receiver_email" value="adicionaseuemailaqui">
+                <input type="hidden" name="item_name" value="sK Gaming Do">
+                <input type="hidden" name="amount" id="paypal_price" value="1">
+                <input type="hidden" name="no_shipping" value="1">
+                <input type="hidden" name="no_note" value="1">
+                <input type="hidden" name="currency_code" value="EUR">
+                <input type="hidden" name="rm" value="2">
+                <input type="submit" id="donatePaypal" class="button" value="DONATE WITH PAYPAL" style="height: 40px; width: 100%; margin-top: -35px; margin-bottom:-10px;" />
+            </form>
+			</div>
+			<!-- End unik section -->
+				<!-- goal section 
+				================================================== -->
+			<div class="box-section skills-section triggerAnimation animated" data-animate="fadeInUpBig">
+				<h2>Statistics of donations</h2>
+				<div class="skills-progress">
+							<p>Donation Goal <span>1€ - 10€</span></p>
+							<div class="meter nostrips wp">
+								<span style="width: 10%"></span>
+							</div>
+				</div>
+			</div>
+			<!-- End skills section -->
+			<!-- footer section
+				================================================== -->
+			<footer>
+			<center>
+				<div class="footer-line">
+					<p>Copyright © 2017 GTA.Ru. All rights reserved.</p>
+				</div>
+				</center>
+			</footer>
+			<!-- End footer section -->
+		</div>
+		<!-- End content -->
+
+	</div>
+	<!-- End Container -->
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.migrate.js"></script>
+	<script type="text/javascript" src="js/jquery.appear.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/raphael-min.js"></script>
+	<script type="text/javascript" src="js/DevSolutionSkill.min.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
+	<script type="text/javascript" src="js/waypoint.min.js"></script>
+	<script type="text/javascript" src="js/plugins-scroll.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</body>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<!-- script paypal -->
+<script type="text/javascript">
+	function appendOperator(text) {
+		var elOptNew = document.createElement('option');
+		elOptNew.text = text;
+		elOptNew.value = text;
+		var elSel = document.getElementById('operator-list');
+		
+		try {
+			elSel.add(elOptNew, null); // standards compliant; doesn't work in IE
+		}
+		catch(ex) {
+			elSel.add(elOptNew); // IE only
+		}
+	}
+	
+	function jq(myid) { 
+		return '#' + myid.replace(/(:|\.)/g,'\\$1');
+	}
+	
+	function donationAmountPaypal_changed(obj) {
+		var amt = obj.value;
+
+		if (isNaN(amt * 1)) {
+			amt = 0;
+			obj.value = 0;
+			obj.focus();
+		}
+		
+		if (amt > 99) {
+			amt = 99;
+		}
+		
+		if (amt < 1) {
+			amt = 1;
+		}
+		amt = Math.round(amt*100)/100
+						
+		document.getElementById("paypal_price").value = amt;
+		
+		document.getElementById("pp-benefit-days").innerHTML = Math.round(amt * 7)+' days';
+		document.getElementById("pp-benefit-money").innerHTML = '$'+Math.round(Math.floor(amt * 10) / 10 * 30000);
+		document.getElementById("pp-benefit-sp").innerHTML = Math.round(amt);
+		document.getElementById("donatePaypal").value = "Donate " + amt + " euro with PayPal!";
+	}
+	
+	//utils
+	function numericOnly(evt) {
+		evt = (evt) ? evt : window.event
+		var charCode = (evt.which) ? evt.which : evt.keyCode
+		if ((charCode > 31 && (charCode < 48 || charCode > 57)) && charCode != 46) {
+			status = "This field accepts numbers only."
+			return false
+		}
+		status = ""
+		return true
+	}
+
+
+	smsUpdateOperators();
+</script>
+</html>
